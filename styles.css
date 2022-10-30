@@ -1,0 +1,73 @@
+:root {
+    /* Primary Colors */
+    --light-text-color: hsl(193, 38%, 86%);
+    --accent-color: hsl(150, 100%, 66%);
+
+    /* Neutral Colors */
+    --light-background-color: hsl(217, 19%, 38%);
+    --background-color: hsl(217, 19%, 24%);
+    --dark-background-color: hsl(218, 23%, 16%);
+}
+
+body {
+    margin: 0;
+    background: var(--dark-background-color);
+    font-family: 'Manrope', sans-serif;
+    font-size: 28px;
+    color: var(--light-text-color);
+}
+
+main {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px);
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    height: 50px;
+}
+
+.container {
+    margin: 1rem;
+    background: var(--background-color);
+    padding: 2rem;
+    max-width: 500px;
+    border-radius: 1rem;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+#adviceID {
+    color: var(--accent-color);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+
+#diceBtn {
+    background: var(--accent-color);
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: calc(50% - (3rem / 2)); 
+    transform: translateY(.5rem);
+}
+
+#diceBtn:hover {
+    cursor: pointer;
+    box-shadow: 0 0px 20px var(--accent-color);
+}
