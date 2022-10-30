@@ -1,3 +1,4 @@
+// DOM ELEMENTS
 const adviceID = document.getElementById('adviceID');
 const adviceMessage = document.getElementById('adviceMessage');
 const patternDivider = document.getElementById('patternDivider');
