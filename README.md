@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [ToDo-Github](https://your-solution-url.com)
-- Live Site URL: [ToDo-Netlify?](https://your-live-site-url.com)
+- Solution URL: [My Solution on Github](https://github.com/matkinson01/advice-generator-app-main)
+- Live Site URL: [https://matkinsonadvicegenerator.netlify.app/](https://matkinsonadvicegenerator.netlify.app/)
 
 ## My process
 
